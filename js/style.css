@@ -1,0 +1,93 @@
+.container-1 {
+    border: 1px solid black;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.flex-box-container-1 {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+.flex-box-container-1 div {
+    padding: 10px;
+    align-items: center;
+}
+
+.container-1 h2 {
+    text-align: center;
+}
+
+.container-2 {
+    border:1px solid black;
+    width: 70%;
+    margin:0 auto;
+    text-align: center;
+}
+.flex-box-container-2{
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flex-box-container-2 img {
+    border: 1px solid green;
+    padding: 10px;
+}
+.container-3 {
+    border: 1px solid black;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.flex-box-container-3 {
+    border: 1px solid black;
+    padding : 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+.container-3-result .list {
+    text-align: left; 
+    margin:0;
+    padding: 0;
+    list-style-type:none;
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.list li:nth-child(odd) {
+    background:lightseagreen;
+  }
+.list li:nth-child(even) {
+    background:lightgreen
+      }
+  .list li:hover {
+    background: #ddd;
+  }
+
+  .close {
+      margin-left: 20px;
+  }
+  .close:hover {
+      background:red;
+  }
+
+  /* When clicked on, add a background color and strike out text */
+ul li.checked {
+    background: rgb(211, 27, 27);
+    color: black;
+    text-decoration: line-through;
+  }
+  
